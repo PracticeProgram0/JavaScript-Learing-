@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practices Exercise Array and Loop</title>
+  </head>
+  <body>
+    <script>
+      //* Task 1
+      // let arr = [5, 6];
+      // console.log(arr);
+      // arr.push(7);
+      // arr.unshift(4);
+      // console.log(arr);
+
+      //* Task 2
+      // function getElement(arr, position) {
+      //   return arr[position - 1];
+      // }
+      // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      // console.log(getElement(arr, 2));
+      //**slice Task 3
+      // function arrCopy(arr) {
+      //   return arr.splice(0, arr.length);
+      // }
+      // let arr = [4, 5, 6, 7];
+      // console.log(arr);
+      // let arr2 = arrCopy(arr);
+      // // arr.splice(1, 2);
+      // arr2[0] = null;
+      // console.log(arr);
+      // console.log(arr2);
+
+      //Task Prime no
+      // function isPrime(num) {
+      //   for (let i = 2; i < num; i++) {
+      //     if (num % 2 === 0) {
+      //       return false;
+      //     }
+      //   }
+      //   return true;
+      // }
+      // // console.log(isPrime(5)); //true
+      // // console.log(isPrime(10));//false
+      // // console.log(isPrime(17));//true
+      // // console.log(isPrime(21));//true
+      // // console.log(isPrime(19));//true
+      // let num = 2;
+      // let count = 0;
+      // while (true) {
+      //   if (isPrime(num)) {
+      //     console.log(num);
+      //     count++;
+      //     if (count >= 5) {
+      //       break;
+      //     }
+      //   }
+      //   num++;
+      // }
+
+      //** Reverce  order nomber print
+      // for (let i = 10; i >= 1; i--) {
+      //   console.log(`reverce no of 10 to 1 = ${i}`);
+      // }
+
+      // for (let i = 0; i <= 10; i++) {
+      //   console.log(`reverce no of 10 to 1 = ${10 - i}`);
+      // }
+      // let nums = [1, -6, 5, 7, -98];
+      // for (let i = 0; i < nums.length; i++) {
+      //   // if (nums[i] < 0) continue; // 1,5,7
+      //   // console.log(nums[i]);
+      //   // if (nums[i] > 0) {
+      //   //   console.log(nums[i]);// 1,5,7
+      //   // }
+      //   if (nums[i] < 0) {
+      //     //  1,5,7
+      //     console.log(nums[i]); // -6, -98
+      //   }
+
+      // }
+      let arr = ["KG", "Coding", "JavaScript", "Course", "is", "Best"];
+      // let result = "";
+      // for (let i = 0; i < arr.length; i++) {
+      //   result += arr[i] + " ";
+      // }
+      // console.log(result);
+      console.log(arr.join(", "));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>object</title>
+  </head>
+  <body>
+    <script>
+      // let product = {
+      //   company: "mango",
+      //   price: 861,
+      //   item_name: "T-Shirt",
+      //   "item-name": "Jeancs",
+      // };
+      // console.log(product);
+      // console.log(product.company);
+      // console.log(product.price);
+      // console.log(product.item_name);
+      // product.company = "Banana";
+      // console.log(typeof product);
+      // console.log(product);
+      // // console.log(product["item-name"]);
+      // let proparticeName = "item-name";
+      // console.log(product[proparticeName]);
+
+      // delete product.company;
+      // console.log(product);
+      // delete product["company"];
+      // console.log(product);
+
+      //inside code
+      // let product = {
+      //   company: "mango",
+      //   price: 861,
+      //   item_name: "T-Shirt",
+      //   "item-name": "Jeancs",
+      //   displayPrice: function () {
+      //     console.log(`Price of the product is ${this.price}`);
+      //   },
+      // };
+      // console.log(product);
+      // product.displayPrice();
+
+      // Autoboxing
+      // console.log("this is kg coding".length);
+      // console.log("this is kg coding".toUpperCase());
+      // console.log("this is kg coding".replace("kg", "Knowlage "));
+
+      // Object referances
+      let a = 5;
+      let b = a;
+      console.log(`a =${a} ,b = ${b}`);
+      a = 8;
+      console.log(`a =${a} ,b = ${b}`);
+
+      let x = { num: 5 };
+      let y = x;
+      console.log(`x= ${x.num}, y= ${y.num}`);
+      x.num = 8;
+      console.log(`x= ${x.num}, y= ${y.num}`);
+
+      let p = { pop: "iujh" };
+      let q = { pop: "iuajh" };
+      console.log((p = q));
+      console.log(p == q);
+      console.log(p === q);
+      // Object Destructuring
+      //object Shortcuts
+      let product = {
+        company: "mango",
+        price: 861,
+        item_name: "T-Shirt",
+        "item-name": "Jeancs",
+      };
+      let { company, price } = product;
+      console.log(company);
+      console.log(price);
+    </script>
+  </body>
+</html>

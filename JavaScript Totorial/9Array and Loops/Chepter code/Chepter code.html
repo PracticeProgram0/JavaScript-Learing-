@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array and Loop</title>
+  </head>
+  <body>
+    <script>
+      let number = [1, 2, 3, 5, 4, 6, 7, 5, 4, 9];
+      // console.log(number);
+      // console.log(number.lastIndexOf(4));
+      // console.log(number.length);
+      // console.log(number[9]);
+
+      let obj = { lki: 98 };
+      let dusara = [1, true, null, "abcds"];
+      // console.log(dusara);
+      // console.log(dusara[3]);
+      // console.log(typeof dusara);
+      // console.log(Array.isArray(dusara));
+      // console.log(Array.isArray(obj));
+      // console.log(typeof obj);
+      let arr = [1, 2, 3];
+      // console.log(arr);
+      // arr.push(6);
+      // console.log(arr);
+      // // arr.pop();
+      // //
+      // console.log("popped " + arr.pop());
+      // console.log(arr);
+      let arrSpalice = [2, 4, 6, 8, 7];
+      console.log(arrSpalice);
+      // //spalice work to remove element
+      // arrSpalice.splice(1, 2);
+      // console.log(arrSpalice);
+      console.log(arrSpalice.toString());
+      arrSpalice.sort();
+      console.log(arrSpalice);
+      console.log(arrSpalice.valueOf());
+      //referanecs
+      let arr2 = arrSpalice;
+      arr2[0] = 99;
+      console.log(arrSpalice);
+      //array Desturching
+      let [a, b, c, d] = arrSpalice;
+      console.log(a + " " + b + " " + c + " " + d + " ");
+    </script>
+  </body>
+</html>

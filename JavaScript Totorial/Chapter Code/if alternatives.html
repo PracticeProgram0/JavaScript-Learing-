@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>if alternative </title>
+</head>
+<body>
+  <script>
+    // Ternary opertor
+    let age=13;
+    // let result;
+    // if (age>18){
+    //   result='Adult';
+    // }
+    // else{
+    //   result='kids'
+    // }
+// condition ? trueValue :false Value
+// Quick one line if-else
+    let result=age>18?'Adult' :'Kids';
+    console.log(result);
+
+    //Guard opertor
+  let ageM=0;
+            // Value || defaultValue
+            // Use when a fallback value is needed
+  let finalAge =ageM || 18;
+  console.log(ageM);
+  console.log(finalAge);
+  
+  // Default Opertor
+
+  let ageD=0;
+  // value ?? fallbackValue
+  //  Use when you want to consider only null and undefined as falsy 
+  let finalAgeD =ageD ?? 18;
+  console.log(ageD);
+  console.log(finalAgeD);
+  </script>
+</body>
+</html>
